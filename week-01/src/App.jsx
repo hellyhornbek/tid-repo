@@ -1,9 +1,13 @@
 function App() {
+  let firstName = "Hans";
+  let lastName = "Hornbek";
   return (
     <>
-      <h1>To Do List</h1>
+      <h1>To Do List for {firstName + " " + lastName}</h1>
       <ul>
-        <li>Update the slides for next lecture</li>
+        <li>say hi to marie</li>
+        <li>Publish the end of lecture survey</li>
+        <li>Publish the end of lecture survey</li>
         <li>Publish the end of lecture survey</li>
       </ul>
     </>
