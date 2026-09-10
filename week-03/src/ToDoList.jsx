@@ -1,3 +1,4 @@
+import "./ToDoList.css";
 import { useState, useEffect } from "react";
 import ToDoItem from "./ToDoItem";
 import NewTodoForm from "./NewTodoForm";
@@ -34,7 +35,7 @@ function ToDoList({ firstName, todos: initialTodos }) {
   }
 
   return (
-    <div>
+    <div className="List">
       <h1>To-Do-List for {firstName}</h1>
       <NewTodoForm onAdd={handleAdd} />
       {todos.length === 0 ? (

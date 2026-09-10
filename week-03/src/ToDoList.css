@@ -1,0 +1,19 @@
+.List {
+  font-family: "Jost", "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 24px;
+  margin: 24px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: deeppink;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid pink;
+  padding-bottom: 8px;
+}

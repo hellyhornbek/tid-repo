@@ -5,8 +5,8 @@ function NewTodoForm({ onAdd }) {
   const [text, setText] = useState("");
 
   // runs on Enter or Add click; sends text to App, then clears the input
-  function handleSubmit(event) {
-    event.preventDefault();
+  function handleSubmit(e) {
+    e.preventDefault();
     onAdd(text);
     setText("");
   }
