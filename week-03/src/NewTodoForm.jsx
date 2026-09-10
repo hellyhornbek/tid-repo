@@ -1,3 +1,4 @@
+import "./NewTodoForm.css";
 import { useState } from "react";
 
 // captures the new-task text; only job is to send it up via onAdd
@@ -18,7 +19,9 @@ function NewTodoForm({ onAdd }) {
         onChange={(e) => setText(e.target.value)}
         placeholder="New task"
       />
-      <button disabled={text.trim().length === 0}>Add</button>
+      <button className="add-button" disabled={text.trim().length === 0}>
+        Add
+      </button>
     </form>
   );
 }

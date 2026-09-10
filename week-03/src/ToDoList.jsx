@@ -35,8 +35,8 @@ function ToDoList({ firstName, todos: initialTodos }) {
   }
 
   return (
-    <div className="List">
-      <h1>To-Do-List for {firstName}</h1>
+    <div className="todo-list">
+      <h1 className="todo-list__title">To-Do-List for {firstName}</h1>
       <NewTodoForm onAdd={handleAdd} />
       {todos.length === 0 ? (
         <p>Nothing to do. Enjoy the afternoon.</p>

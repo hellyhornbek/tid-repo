@@ -1,0 +1,13 @@
+.add-button {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.add-button:disabled {
+  background-color: lightgray;
+  cursor: default;
+}
