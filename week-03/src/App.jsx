@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <ToDoList firstName="Hans" todos={hansToDoList} />
-      <ToDoList firstName="Bastian" todos={bastiansToDoList} />
+      <ToDoList firstName="Marie" todos={bastiansToDoList} />
     </>
   );
 }
