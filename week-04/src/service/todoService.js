@@ -12,12 +12,12 @@ function toPlainObject(parseObject) {
 
 export async function fetchTodos() {
   const query = Parse.Query(ToDoItem);
-  query.ascending("createdAd");
+  query.ascending("createdAt");
   const result = await query.find();
   return result.map(toPlainObject);
 }
 
-export async function createToDo(text) {
+export async function createTodo(text) {
   const item = new ToDoItem();
   item.set("text", text);
   item.set("done", false);
